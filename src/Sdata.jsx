@@ -1,6 +1,6 @@
 import web from "../src/images/img2.jpg";
-import web2 from "../src/images/img4.png"
-import web3 from "../src/images/img3.jpg"
+import web2 from "../src/images/img4.png";
+import web3 from "../src/images/img3.jpg";
 
 
 

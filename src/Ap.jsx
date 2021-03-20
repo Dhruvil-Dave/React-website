@@ -6,6 +6,7 @@ import About from "./About";
 import Service from "./Service";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
+import Profile from "./Profile";
 import {Switch, Route, Redirect } from "react-router-dom";
 import Footer from "./Footer";
 
@@ -18,6 +19,7 @@ const Ap = () => {
 				<Route exact path="/about" component={About}/>
 				<Route exact path="/service" component={Service}/>
 				<Route exact path="/contact" component={Contact}/>
+                <Route exact path="/profile" component={Profile}/>
 				<Redirect to="/"/>
 			</Switch>	
             <Footer/>
