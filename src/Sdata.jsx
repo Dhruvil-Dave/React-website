@@ -30,6 +30,10 @@ const Sdata = [
         imgsrc: web,
         title: "Mobile development",
     },
+    {
+        imgsrc: web3,
+        title: "Backend",
+    },
 ];
 
 export default Sdata;
